@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 class GeminiService {
   static const String _baseUrl =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
-  static const String _apiKey = 'AIzaSyCxOw46Pz0kazpap3rQkx1NHYFzabptwO8';
+  static const String _apiKey = '';
 
   Future<String> generateResponse(String prompt) async {
     try {
