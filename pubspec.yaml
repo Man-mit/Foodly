@@ -1,0 +1,38 @@
+name: foodly
+description: "A modern Flutter food ordering app."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cheese_burger.png
+    - assets/burger2.png
+    - assets/burger3.png
+    - assets/burger4.png
+    - assets/pizza.png
+    - assets/pizza1.png
+    - assets/pizza2.png
+    - assets/pizza3.png
+    - assets/pizza4.png
+    - assets/profile.jpg
+    - assets/logo.png
+    - assets/coke.png
+    - assets/fries.png
